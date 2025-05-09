@@ -15,7 +15,7 @@ jobs:
           MYSQL_ROOT_PASSWORD: 123
         options: >-
           --health-cmd "mysqladmin ping"
-          --health-interval 10s
+          --health-interval 600s
           --health-timeout 5s
           --health-retries 100
     steps:
